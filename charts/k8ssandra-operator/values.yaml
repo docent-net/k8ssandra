@@ -55,3 +55,5 @@ securityContext:
 # `requests` and `limits` for `cpu` and `memory` while removing the existing
 # `{}`
 resources: {}
+# -- Tolerations for use with node taints
+tolerations: []

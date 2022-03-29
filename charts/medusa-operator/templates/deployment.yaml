@@ -30,3 +30,6 @@ spec:
         resources: {{- toYaml .Values.resources | nindent 10 }}
         securityContext: {{- toYaml .Values.securityContext | nindent 12 }}
       terminationGracePeriodSeconds: 10
+      {{- if .Values.tolerations }}
+      tolerations: {{ toYaml .Values.tolerations | nindent 8 }}
+      {{- end }}

@@ -51,3 +51,5 @@ securityContext:
 # braces after 'resources:'. limits: cpu: 100m memory: 128Mi requests: cpu: 100m
 # memory: 128Mi
 resources: {}
+# -- Tolerations for use with node taints
+tolerations: []

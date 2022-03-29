@@ -61,3 +61,5 @@ resources: {}
 # -- Enables specific VMware functionality. If you need this functionality it
 # will automatically be enabled for you.
 vmwarePSPEnabled: false
+# -- Tolerations for use with node taints
+tolerations: []
